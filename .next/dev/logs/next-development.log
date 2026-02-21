@@ -1,0 +1,43 @@
+[00:00:03.736] Server  LOG      ✓ Ready in 3s
+[00:00:15.356] Server  LOG      ○ Compiling / ...
+[00:00:16.646] Server  WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(0) or use aspect(undefined) to control the
+       height and width.
+[00:00:16.938] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:17.218] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(0) or use aspect(undefined) to control the
+       height and width.
+[00:00:17.218] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(0) or use aspect(undefined) to control the
+       height and width.
+[00:00:17.218] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(0) or use aspect(undefined) to control the
+       height and width.
+[00:00:17.218] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(0) or use aspect(undefined) to control the
+       height and width.
+[00:00:19.081] Browser ERROR   {}
+[00:00:19.297] Browser ERROR   {}
+[00:00:19.722] Browser ERROR   {}
+[00:00:20.549] Browser ERROR   {}
+[00:00:22.172] Browser ERROR   {}
+[00:00:25.396] Browser ERROR   {}
+[00:00:31.819] Browser ERROR   {}
+[00:00:46.126] Browser ERROR   {}
+[00:00:46.126] Browser ERROR   {"__isAuthError":true,"name":"AuthRetryableFetchError","status":0}
+[00:00:46.126] Browser ERROR   {}
+[00:00:47.120] Browser ERROR   {}
+[00:00:48.121] Browser ERROR   {}
+[00:00:49.120] Browser ERROR   {}
+[00:00:51.123] Browser ERROR   {}
+[00:00:55.129] Browser ERROR   {}
+[00:00:57.121] Browser ERROR   unhandledRejection: AbortError: signal is aborted without reason
+[00:01:02.122] Browser ERROR   {}
+[00:01:15.123] Browser ERROR   {}
+[00:01:15.123] Browser ERROR   {"__isAuthError":true,"name":"AuthRetryableFetchError","status":0}
+[00:01:15.123] Browser ERROR   {"__isAuthError":true,"name":"AuthRetryableFetchError","status":0}
