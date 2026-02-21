@@ -31,7 +31,7 @@ export default function Home() {
           </div>
           <div className="flex items-center gap-4">
             {/* Profile / Login Button */}
-            <Link href={user ? "/profile" : "/login"}>
+            {/* <Link href={user ? "/profile" : "/login"}>
               <Button
                 variant="ghost"
                 className="text-zinc-400 hover:text-white"
@@ -43,7 +43,7 @@ export default function Home() {
                 )}
                 {user ? "Profile" : "Login"}
               </Button>
-            </Link>
+            </Link> */}
 
             <Link href="/expenses">
               <Button
