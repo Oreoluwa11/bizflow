@@ -880,3 +880,44 @@ Import traces:
        please check the style of container, or the props width(100%) and height(100%),
        or add a minWidth(0) or minHeight(0) or use aspect(undefined) to control the
        height and width.
+[00:33:55.958] Browser ERROR   {}
+[00:33:55.958] Browser ERROR   {}
+[00:33:56.228] Browser ERROR   {}
+[00:33:56.655] Browser ERROR   {}
+[00:33:57.484] Browser ERROR   {}
+[00:33:59.109] Browser ERROR   {}
+[00:34:02.343] Browser ERROR   {}
+[00:34:08.766] Browser ERROR   {}
+[00:34:21.802] Browser ERROR   {}
+[00:34:21.802] Browser ERROR   {"__isAuthError":true,"name":"AuthRetryableFetchError","status":0}
+[00:34:21.802] Browser ERROR   {"__isAuthError":true,"name":"AuthRetryableFetchError","status":0}
+[00:34:37.602] Browser ERROR   {}
+[00:34:37.986] Browser ERROR   {}
+[00:34:38.413] Browser ERROR   {}
+[00:34:39.531] Browser ERROR   {}
+[00:34:41.162] Browser ERROR   {}
+[00:34:44.391] Browser ERROR   {}
+[00:34:51.096] Browser ERROR   {}
+[00:35:00.288] Browser ERROR   {}
+[00:35:00.524] Browser ERROR   {}
+[00:35:00.954] Browser ERROR   {}
+[00:35:01.781] Browser ERROR   {}
+[00:35:03.407] Browser ERROR   {}
+[00:35:06.635] Browser ERROR   {}
+[00:35:18.859] Browser ERROR   {}
+[00:35:30.289] Browser ERROR   {}
+[00:35:30.538] Browser ERROR   {}
+[00:35:30.967] Browser ERROR   {}
+[00:35:31.794] Browser ERROR   {}
+[00:35:33.701] Browser ERROR   {}
+[00:35:40.955] Browser ERROR   {}
+[00:35:47.385] Browser ERROR   {}
+[00:36:00.946] Browser ERROR   {}
+[00:36:00.946] Browser ERROR   {}
+[00:36:01.171] Browser ERROR   {}
+[00:36:01.594] Browser ERROR   {}
+[00:36:02.423] Browser ERROR   {}
+[00:36:04.053] Browser ERROR   {}
+[00:36:07.282] Browser ERROR   {}
+[00:36:15.327] Browser ERROR   {}
+[00:36:28.326] Browser ERROR   {}
