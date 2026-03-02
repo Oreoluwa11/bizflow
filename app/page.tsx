@@ -10,7 +10,7 @@ import { CircleDollarSign, ArrowRight } from "lucide-react";
 
 import { IncomeChart } from "@/components/dashboard/IncomeChart";
 import { useAuth } from "@/components/auth/AuthProvider";
-import { User, LogIn } from "lucide-react";
+// import { User, LogIn } from "lucide-react";
 
 export default function Home() {
   const { data, setIncome, stats } = useFinance();
@@ -23,9 +23,9 @@ export default function Home() {
         <header className="flex items-center justify-between pb-6 border-b border-zinc-900">
           <div className="flex items-center gap-2">
             <div className="bg-indigo-600 p-2 rounded-lg">
-              <CircleDollarSign className="w-6 h-6 text-white" />
+              <CircleDollarSign className="w-4 md:w-6 h-4 md:h-6 text-white" />
             </div>
-            <h1 className="text-2xl font-bold tracking-tight text-white">
+            <h1 className="md:text-2xl text-xl font-bold tracking-tight text-white">
               BizFlow Finance
             </h1>
           </div>
@@ -50,8 +50,8 @@ export default function Home() {
                 variant="outline"
                 className="text-indigo-400 border-indigo-500/30 hover:bg-zinc-800"
               >
-                <ArrowRight className="h-4 w-4" />{" "}
-                <span className="hidden sm:inline ml-2">Add Expenses</span>
+                <ArrowRight className="h-3 md:h-4 w-4" />{" "}
+                <span className="text-xs md:text-base sm:inline ml-2">Add Expenses</span>
               </Button>
             </Link>
           </div>

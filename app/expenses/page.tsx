@@ -25,7 +25,7 @@ export default function ExpensesPage() {
   const { user } = useAuth();
 
   return (
-    <main className="min-h-screen bg-black text-zinc-100 p-4 md:p-8">
+    <main className="min-h-screen bg-black text-zinc-100 px-4 py-10 md:p-8">
       <div className="max-w-7xl mx-auto space-y-8">
         {/* Header */}
         <header className="flex items-center justify-between pb-6 border-b border-zinc-900">
@@ -49,7 +49,7 @@ export default function ExpensesPage() {
             </div>
           </div>
 
-          <Link href={user ? "/profile" : "/login"}>
+          {/* <Link href={user ? "/profile" : "/login"}>
             <Button variant="ghost" className="text-zinc-400 hover:text-white">
               {user ? (
                 <User className="w-5 h-5" />
@@ -58,7 +58,7 @@ export default function ExpensesPage() {
               )}
               {user ? "Profile" : "Login"}
             </Button>
-          </Link>
+          </Link> */}
         </header>
 
         {/* Dashboard Stats */}
@@ -86,7 +86,7 @@ export default function ExpensesPage() {
                 />
               </div>
 
-              <GoalTracker goals={data.goals} onAddGoal={addGoal} />
+              {/* <GoalTracker goals={data.goals} onAddGoal={addGoal} /> */}
             </div>
           </div>
 

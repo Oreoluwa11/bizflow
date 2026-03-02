@@ -1,2 +1,882 @@
-[00:00:03.891] Server  LOG      ✓ Ready in 3.3s
-[00:00:20.341] Server  LOG      ○ Compiling / ...
+[00:00:01.626] Server  LOG      ✓ Ready in 1232ms
+[00:00:28.867] Server  LOG      ○ Compiling / ...
+[00:00:41.645] Server  WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(0) or use aspect(undefined) to control the
+       height and width.
+[00:00:41.972] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:42.282] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(0) or use aspect(undefined) to control the
+       height and width.
+[00:00:42.282] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(0) or use aspect(undefined) to control the
+       height and width.
+[00:00:42.282] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(0) or use aspect(undefined) to control the
+       height and width.
+[00:00:42.282] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(0) or use aspect(undefined) to control the
+       height and width.
+[00:00:46.788] Browser ERROR   {}
+[00:00:47.080] Browser ERROR   {}
+[00:00:47.551] Browser ERROR   {}
+[00:00:48.389] Browser ERROR   {}
+[00:00:50.012] Browser ERROR   {}
+[00:00:53.269] Browser ERROR   {}
+[00:01:00.154] Browser ERROR   {}
+[00:01:00.154] Browser ERROR   {"__isAuthError":true,"name":"AuthRetryableFetchError","status":0}
+[00:01:00.408] Browser ERROR   {}
+[00:01:00.718] Browser ERROR   {}
+[00:01:01.127] Browser ERROR   {}
+[00:01:01.997] Browser ERROR   {}
+[00:01:03.787] Browser ERROR   {}
+[00:01:06.902] Browser ERROR   {}
+[00:01:10.111] Browser ERROR   unhandledRejection: AbortError: signal is aborted without reason
+[00:01:13.337] Browser ERROR   {}
+[00:01:26.887] Browser ERROR   {}
+[00:01:26.887] Browser ERROR   {"__isAuthError":true,"name":"AuthRetryableFetchError","status":0}
+[00:01:26.887] Browser ERROR   {"__isAuthError":true,"name":"AuthRetryableFetchError","status":0}
+[00:01:26.887] Browser ERROR   {}
+[00:01:27.117] Browser ERROR   {}
+[00:01:27.542] Browser ERROR   {}
+[00:01:28.413] Browser ERROR   {}
+[00:01:38.243] Browser ERROR   {}
+[00:01:49.679] Browser ERROR   {}
+[00:02:13.304] Server  LOG      ✓ Compiled in 71ms
+[00:02:13.938] Browser ERROR   {}
+[00:02:13.938] Browser ERROR   {"__isAuthError":true,"name":"AuthRetryableFetchError","status":0}
+[00:02:13.938] Browser ERROR   {"__isAuthError":true,"name":"AuthRetryableFetchError","status":0}
+[00:02:13.938] Browser ERROR   {}
+[00:02:14.146] Browser ERROR   {}
+[00:02:14.551] Browser ERROR   {}
+[00:02:15.358] Browser ERROR   {}
+[00:02:16.963] Browser ERROR   {}
+[00:02:20.169] Browser ERROR   {}
+[00:02:26.575] Browser ERROR   {}
+[00:02:39.386] Browser ERROR   {}
+[00:02:39.386] Browser ERROR   {}
+[00:02:39.592] Browser ERROR   {}
+[00:02:39.999] Browser ERROR   {}
+[00:02:40.803] Browser ERROR   {}
+[00:02:42.408] Browser ERROR   {}
+[00:02:45.615] Browser ERROR   {}
+[00:02:52.019] Browser ERROR   {}
+[00:03:06.793] Browser ERROR   {}
+[00:03:06.939] Browser ERROR   {}
+[00:03:07.333] Browser ERROR   {}
+[00:03:08.144] Browser ERROR   {}
+[00:03:09.001] Browser ERROR   {}
+[00:03:11.135] Browser ERROR   {}
+[00:03:14.616] Browser ERROR   {}
+[00:03:21.041] Browser ERROR   {}
+[00:03:25.172] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(0) or use aspect(undefined) to control the
+       height and width.
+[00:03:25.172] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(0) or use aspect(undefined) to control the
+       height and width.
+[00:03:25.173] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(0) or use aspect(undefined) to control the
+       height and width.
+[00:03:25.173] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(0) or use aspect(undefined) to control the
+       height and width.
+[00:03:34.165] Browser ERROR   {}
+[00:03:34.165] Browser ERROR   {}
+[00:03:34.389] Browser ERROR   {}
+[00:03:34.799] Browser ERROR   {}
+[00:03:36.845] Browser ERROR   {}
+[00:03:38.473] Browser ERROR   {}
+[00:03:41.708] Browser ERROR   {}
+[00:03:48.138] Browser ERROR   {}
+[00:04:05.942] Browser ERROR   {}
+[00:04:05.942] Browser ERROR   {"__isAuthError":true,"name":"AuthRetryableFetchError","status":0}
+[00:04:05.942] Browser ERROR   {"__isAuthError":true,"name":"AuthRetryableFetchError","status":0}
+[00:04:05.942] Browser ERROR   {}
+[00:04:06.170] Browser ERROR   {}
+[00:04:06.641] Browser ERROR   {}
+[00:04:07.481] Browser ERROR   {}
+[00:04:09.109] Browser ERROR   {}
+[00:04:12.344] Browser ERROR   {}
+[00:04:14.829] Server  LOG      ✓ Compiled in 59ms
+[00:04:18.773] Browser ERROR   {}
+[00:04:19.283] Server  LOG      ✓ Compiled in 39ms
+[00:04:31.353] Server  LOG      ✓ Compiled in 26ms
+[00:04:31.678] Browser ERROR   {}
+[00:04:31.679] Browser ERROR   {}
+[00:04:31.912] Browser ERROR   {}
+[00:04:32.333] Browser ERROR   {}
+[00:04:33.177] Server  LOG      ✓ Compiled in 45ms
+[00:04:33.308] Browser ERROR   {}
+[00:04:34.802] Browser ERROR   {}
+[00:04:38.212] Server  LOG      ✓ Compiled in 44ms
+[00:04:43.732] Browser ERROR   {}
+[00:04:45.560] Server  LOG      ✓ Compiled in 28ms
+[00:04:47.160] Server  LOG      ✓ Compiled in 21ms
+[00:04:50.156] Browser ERROR   {}
+[00:04:53.478] Server  LOG      ✓ Compiled in 27ms
+[00:05:00.135] Browser ERROR   {}
+[00:05:00.360] Browser ERROR   {}
+[00:05:00.789] Browser ERROR   {}
+[00:05:01.621] Browser ERROR   {}
+[00:05:03.245] Browser ERROR   {}
+[00:05:05.171] Server  LOG      ✓ Compiled in 24ms
+[00:05:06.422] Server  LOG      ✓ Compiled in 44ms
+[00:05:06.626] Browser ERROR   {}
+[00:05:10.433] Server  LOG      ✓ Compiled in 24ms
+[00:05:13.102] Browser ERROR   {}
+[00:05:27.023] Browser ERROR   {}
+[00:05:30.142] Browser ERROR   {}
+[00:05:30.366] Browser ERROR   {}
+[00:05:30.790] Browser ERROR   {}
+[00:05:31.622] Browser ERROR   {}
+[00:05:33.254] Browser ERROR   {}
+[00:05:36.482] Browser ERROR   {}
+[00:05:42.626] Server  LOG      ✓ Compiled in 23ms
+[00:05:42.912] Browser ERROR   {}
+[00:05:52.867] Server  LOG      ✓ Compiled in 24ms
+[00:05:55.746] Browser ERROR   {}
+[00:05:56.068] Server  LOG      ✓ Compiled in 22ms
+[00:05:57.535] Server  LOG      ✓ Compiled in 24ms
+[00:05:59.215] Server  LOG      ✓ Compiled in 26ms
+[00:06:02.551] Server  LOG      ✓ Compiled in 24ms
+[00:06:05.967] Browser ERROR   {}
+[00:06:06.196] Browser ERROR   {}
+[00:06:06.630] Browser ERROR   {}
+[00:06:07.458] Browser ERROR   {}
+[00:06:08.676] Server  LOG      ✓ Compiled in 27ms
+[00:06:09.103] Browser ERROR   {}
+[00:06:11.553] Server  LOG      ✓ Compiled in 23ms
+[00:06:12.333] Browser ERROR   {}
+[00:06:14.022] Server  LOG      ✓ Compiled in 24ms
+[00:06:17.786] Server  LOG      ✓ Compiled in 22ms
+[00:06:18.762] Browser ERROR   {}
+[00:06:20.027] Server  LOG      ✓ Compiled in 49ms
+[00:06:30.137] Browser ERROR   {}
+[00:06:30.363] Browser ERROR   {}
+[00:06:30.790] Browser ERROR   {}
+[00:06:30.943] Server  LOG      ✓ Compiled in 50ms
+[00:06:31.620] Browser ERROR   {}
+[00:06:32.701] Server  LOG      ✓ Compiled in 39ms
+[00:06:33.331] Browser ERROR   {}
+[00:06:38.677] Browser ERROR   {}
+[00:06:43.930] Server  LOG      ✓ Compiled in 26ms
+[00:06:45.103] Browser ERROR   {}
+[00:06:45.481] Server  LOG      ✓ Compiled in 25ms
+[00:06:51.613] Server  LOG      ✓ Compiled in 20ms
+[00:06:57.928] Browser ERROR   {}
+[00:07:00.139] Browser ERROR   {}
+[00:07:00.362] Browser ERROR   {}
+[00:07:00.793] Browser ERROR   {}
+[00:07:01.619] Browser ERROR   {}
+[00:07:03.250] Browser ERROR   {}
+[00:07:06.478] Browser ERROR   {}
+[00:07:20.080] Browser ERROR   {}
+[00:07:20.080] Browser ERROR   {}
+[00:07:20.307] Browser ERROR   {}
+[00:07:20.737] Browser ERROR   {}
+[00:07:21.581] Browser ERROR   {}
+[00:07:23.207] Browser ERROR   {}
+[00:07:25.639] Server  LOG      ✓ Compiled in 24ms
+[00:07:25.759] Browser ERROR   ./app/page.tsx:13:1
+Parsing ecmascript source code failed
+  11 | import { IncomeChart } from "@/components/dashboard/IncomeChart";
+  12 | import { useAuth } from "@/components/auth/AuthProvider";
+> 13 | ÷
+     | ^
+  14 | export default function Home() {
+  15 |   const { data, setIncome, stats } = useFinance();
+  16 |   const { user } = useAuth();
+
+Unexpected character '÷'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:07:26.440] Browser ERROR   {}
+[00:07:28.120] Server  LOG      ✓ Compiled in 21ms
+[00:07:32.879] Browser ERROR   {}
+[00:07:44.682] Server  LOG      ✓ Compiled in 45ms
+[00:07:45.698] Browser ERROR   {}
+[00:07:45.698] Browser ERROR   {"__isAuthError":true,"name":"AuthRetryableFetchError","status":0}
+[00:07:45.698] Browser ERROR   {"__isAuthError":true,"name":"AuthRetryableFetchError","status":0}
+[00:08:04.599] Browser ERROR   {}
+[00:08:04.827] Browser ERROR   {}
+[00:08:05.258] Browser ERROR   {}
+[00:08:06.089] Browser ERROR   {}
+[00:08:07.718] Browser ERROR   {}
+[00:08:10.946] Browser ERROR   {}
+[00:08:17.397] Browser ERROR   {}
+[00:08:30.140] Browser ERROR   {}
+[00:08:30.370] Browser ERROR   {}
+[00:08:30.798] Browser ERROR   {}
+[00:08:31.626] Browser ERROR   {}
+[00:08:33.260] Browser ERROR   {}
+[00:08:41.062] Browser ERROR   {}
+[00:08:47.489] Browser ERROR   {}
+[00:09:00.136] Browser ERROR   {}
+[00:09:00.365] Browser ERROR   {}
+[00:09:00.791] Browser ERROR   {}
+[00:09:01.625] Browser ERROR   {}
+[00:09:03.252] Browser ERROR   {}
+[00:09:06.474] Browser ERROR   {}
+[00:09:21.740] Browser ERROR   {}
+[00:09:30.138] Browser ERROR   {}
+[00:09:30.367] Browser ERROR   {}
+[00:09:30.806] Browser ERROR   {}
+[00:09:31.641] Browser ERROR   {}
+[00:09:33.272] Browser ERROR   {}
+[00:09:36.504] Browser ERROR   {}
+[00:09:42.935] Browser ERROR   {}
+[00:10:00.940] Browser ERROR   {}
+[00:10:00.940] Browser ERROR   {}
+[00:10:01.194] Browser ERROR   {}
+[00:10:01.618] Browser ERROR   {}
+[00:10:02.448] Browser ERROR   {}
+[00:10:04.074] Browser ERROR   {}
+[00:10:07.306] Browser ERROR   {}
+[00:10:13.738] Browser ERROR   {}
+[00:10:26.567] Browser ERROR   {}
+[00:10:36.874] Browser ERROR   {}
+[00:10:37.103] Browser ERROR   {}
+[00:10:37.531] Browser ERROR   {}
+[00:10:38.365] Browser ERROR   {}
+[00:10:39.996] Browser ERROR   {}
+[00:10:43.226] Browser ERROR   {}
+[00:10:49.655] Browser ERROR   {}
+[00:11:00.136] Browser ERROR   {}
+[00:11:00.362] Browser ERROR   {}
+[00:11:00.793] Browser ERROR   {}
+[00:11:01.620] Browser ERROR   {}
+[00:11:03.249] Browser ERROR   {}
+[00:11:12.603] Browser ERROR   {}
+[00:11:14.891] Server  LOG      ✓ Compiled in 84ms
+[00:11:19.064] Browser ERROR   {}
+[00:11:30.137] Browser ERROR   {}
+[00:11:30.361] Browser ERROR   {}
+[00:11:30.784] Browser ERROR   {}
+[00:11:31.613] Browser ERROR   {}
+[00:11:33.240] Browser ERROR   {}
+[00:11:36.481] Browser ERROR   {}
+[00:11:48.977] Browser ERROR   {}
+[00:12:00.139] Browser ERROR   {}
+[00:12:00.368] Browser ERROR   {}
+[00:12:00.799] Browser ERROR   {}
+[00:12:03.327] Browser ERROR   {}
+[00:12:05.327] Browser ERROR   {}
+[00:12:07.802] Browser ERROR   {}
+[00:12:14.245] Browser ERROR   {}
+[00:12:27.297] Browser ERROR   {}
+[00:12:27.297] Browser ERROR   {}
+[00:12:27.524] Browser ERROR   {}
+[00:12:27.980] Browser ERROR   {}
+[00:12:28.810] Browser ERROR   {}
+[00:12:30.437] Browser ERROR   {}
+[00:12:33.669] Browser ERROR   {}
+[00:12:40.102] Browser ERROR   {}
+[00:12:52.992] Browser ERROR   {}
+[00:12:52.992] Browser ERROR   {"__isAuthError":true,"name":"AuthRetryableFetchError","status":0}
+[00:12:52.992] Browser ERROR   {}
+[00:12:53.222] Browser ERROR   {}
+[00:12:53.650] Browser ERROR   {}
+[00:12:54.476] Browser ERROR   {}
+[00:12:55.126] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(0) or use aspect(undefined) to control the
+       height and width.
+[00:12:55.126] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(0) or use aspect(undefined) to control the
+       height and width.
+[00:12:55.126] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(0) or use aspect(undefined) to control the
+       height and width.
+[00:12:55.126] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(0) or use aspect(undefined) to control the
+       height and width.
+[00:12:56.102] Browser ERROR   {}
+[00:12:57.645] Server  WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(0) or use aspect(undefined) to control the
+       height and width.
+[00:12:58.986] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(0) or use aspect(undefined) to control the
+       height and width.
+[00:12:58.986] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(0) or use aspect(undefined) to control the
+       height and width.
+[00:12:58.986] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(0) or use aspect(undefined) to control the
+       height and width.
+[00:12:58.986] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(0) or use aspect(undefined) to control the
+       height and width.
+[00:12:59.983] Browser ERROR   {}
+[00:13:00.243] Browser ERROR   {}
+[00:13:00.642] Browser ERROR   {}
+[00:13:01.487] Browser ERROR   {}
+[00:13:03.110] Browser ERROR   {}
+[00:13:06.338] Browser ERROR   {}
+[00:13:12.763] Browser ERROR   {}
+[00:13:25.629] Browser ERROR   {}
+[00:13:25.629] Browser ERROR   {"__isAuthError":true,"name":"AuthRetryableFetchError","status":0}
+[00:13:25.629] Browser ERROR   {}
+[00:13:25.861] Browser ERROR   {}
+[00:13:26.293] Browser ERROR   {}
+[00:13:27.125] Browser ERROR   {}
+[00:13:28.774] Browser ERROR   {}
+[00:13:33.878] Browser ERROR   {}
+[00:13:35.603] Browser ERROR   unhandledRejection: AbortError: signal is aborted without reason
+[00:13:35.603] Browser ERROR   unhandledRejection: AbortError: signal is aborted without reason
+[00:13:35.603] Browser ERROR   unhandledRejection: AbortError: signal is aborted without reason
+[00:13:40.307] Browser ERROR   {}
+[00:13:53.141] Browser ERROR   {}
+[00:13:53.141] Browser ERROR   {"__isAuthError":true,"name":"AuthRetryableFetchError","status":0}
+[00:13:53.141] Browser ERROR   {"__isAuthError":true,"name":"AuthRetryableFetchError","status":0}
+[00:13:55.630] Browser ERROR   {}
+[00:13:55.858] Browser ERROR   {}
+[00:13:56.288] Browser ERROR   {}
+[00:13:57.120] Browser ERROR   {}
+[00:13:58.774] Browser ERROR   {}
+[00:14:02.002] Browser ERROR   {}
+[00:14:11.892] Browser ERROR   {}
+[00:14:24.723] Browser ERROR   {}
+[00:14:25.627] Browser ERROR   {}
+[00:14:25.891] Browser ERROR   {}
+[00:14:26.317] Browser ERROR   {}
+[00:14:27.142] Browser ERROR   {}
+[00:14:28.788] Browser ERROR   {}
+[00:14:32.026] Browser ERROR   {}
+[00:14:38.448] Browser ERROR   {}
+[00:14:53.037] Browser ERROR   {}
+[00:14:55.628] Browser ERROR   {}
+[00:14:55.861] Browser ERROR   {}
+[00:14:56.292] Browser ERROR   {}
+[00:14:56.819] Server  LOG      ✓ Compiled in 26ms
+[00:14:56.949] Browser ERROR   ./components/dashboard/ExpenseTable.tsx:127:1
+Parsing ecmascript source code failed
+  125 |     </div>
+  126 |   );
+> 127 | }
+      | ^
+  128 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/ExpenseTable.tsx [Client Component Browser]
+    ./app/expenses/page.tsx [Client Component Browser]
+    ./app/expenses/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/ExpenseTable.tsx [Client Component SSR]
+    ./app/expenses/page.tsx [Client Component SSR]
+    ./app/expenses/page.tsx [Server Component]
+[00:14:57.119] Browser ERROR   {}
+[00:14:58.751] Browser ERROR   {}
+[00:15:01.983] Browser ERROR   {}
+[00:15:08.410] Browser ERROR   {}
+[00:15:21.249] Browser ERROR   {}
+[00:15:25.898] Browser ERROR   {}
+[00:15:26.124] Browser ERROR   {}
+[00:15:26.901] Browser ERROR   {}
+[00:15:27.732] Browser ERROR   {}
+[00:15:29.386] Browser ERROR   {}
+[00:15:32.620] Browser ERROR   {}
+[00:15:39.059] Browser ERROR   {}
+[00:15:51.895] Browser ERROR   {}
+[00:15:56.012] Browser ERROR   {}
+[00:15:56.236] Browser ERROR   {}
+[00:15:56.688] Browser ERROR   {}
+[00:15:57.516] Browser ERROR   {}
+[00:15:59.148] Browser ERROR   {}
+[00:16:02.384] Browser ERROR   {}
+[00:16:08.816] Browser ERROR   {}
+[00:16:21.648] Browser ERROR   {}
+[00:16:27.717] Browser ERROR   {}
+[00:16:27.947] Browser ERROR   {}
+[00:16:28.375] Browser ERROR   {}
+[00:16:29.204] Browser ERROR   {}
+[00:16:30.835] Browser ERROR   {}
+[00:16:34.061] Browser ERROR   {}
+[00:16:40.498] Browser ERROR   {}
+[00:16:53.330] Browser ERROR   {}
+[00:16:55.628] Browser ERROR   {}
+[00:16:55.860] Browser ERROR   {}
+[00:16:56.286] Browser ERROR   {}
+[00:16:58.550] Browser ERROR   {}
+[00:17:00.173] Browser ERROR   {}
+[00:17:03.409] Browser ERROR   {}
+[00:17:09.837] Browser ERROR   {}
+[00:17:22.667] Browser ERROR   {}
+[00:17:25.631] Browser ERROR   {}
+[00:17:25.862] Browser ERROR   {}
+[00:17:26.341] Browser ERROR   {}
+[00:17:27.181] Browser ERROR   {}
+[00:17:30.820] Browser ERROR   {}
+[00:17:34.052] Browser ERROR   {}
+[00:17:40.487] Browser ERROR   {}
+[00:17:49.387] Browser ERROR   {}
+[00:17:49.647] Browser ERROR   {}
+[00:17:50.072] Browser ERROR   {}
+[00:17:50.902] Browser ERROR   {}
+[00:17:52.527] Browser ERROR   {}
+[00:17:55.768] Browser ERROR   {}
+[00:18:02.482] Browser ERROR   {}
+[00:18:15.346] Browser ERROR   {}
+[00:18:15.346] Browser ERROR   {"__isAuthError":true,"name":"AuthRetryableFetchError","status":0}
+[00:18:15.346] Browser ERROR   {}
+[00:18:15.592] Browser ERROR   {}
+[00:18:16.023] Browser ERROR   {}
+[00:18:16.853] Browser ERROR   {}
+[00:18:18.480] Browser ERROR   {}
+[00:18:21.956] Browser ERROR   {}
+[00:18:25.316] Browser ERROR   unhandledRejection: AbortError: signal is aborted without reason
+[00:18:28.394] Browser ERROR   {}
+[00:18:41.807] Browser ERROR   {}
+[00:18:41.807] Browser ERROR   {"__isAuthError":true,"name":"AuthRetryableFetchError","status":0}
+[00:18:41.807] Browser ERROR   {"__isAuthError":true,"name":"AuthRetryableFetchError","status":0}
+[00:18:45.346] Browser ERROR   {}
+[00:18:45.585] Browser ERROR   {}
+[00:18:46.017] Browser ERROR   {}
+[00:18:46.846] Browser ERROR   {}
+[00:18:48.560] Browser ERROR   {}
+[00:18:51.792] Browser ERROR   {}
+[00:18:58.220] Browser ERROR   {}
+[00:19:11.063] Browser ERROR   {}
+[00:19:15.517] Browser ERROR   {}
+[00:19:15.742] Browser ERROR   {}
+[00:19:16.177] Browser ERROR   {}
+[00:19:17.005] Browser ERROR   {}
+[00:19:18.638] Browser ERROR   {}
+[00:19:21.896] Browser ERROR   {}
+[00:19:28.331] Browser ERROR   {}
+[00:19:41.165] Browser ERROR   {}
+[00:19:49.476] Browser ERROR   {}
+[00:19:49.705] Browser ERROR   {}
+[00:19:50.134] Browser ERROR   {}
+[00:19:50.985] Browser ERROR   {}
+[00:19:52.612] Browser ERROR   {}
+[00:19:55.851] Browser ERROR   {}
+[00:20:02.734] Browser ERROR   {}
+[00:20:15.353] Browser ERROR   {}
+[00:20:15.580] Browser ERROR   {}
+[00:20:16.014] Browser ERROR   {}
+[00:20:16.846] Browser ERROR   {}
+[00:20:18.474] Browser ERROR   {}
+[00:20:22.658] Browser ERROR   {}
+[00:20:29.088] Browser ERROR   {}
+[00:20:41.920] Browser ERROR   {}
+[00:20:45.346] Browser ERROR   {}
+[00:20:45.593] Browser ERROR   {}
+[00:20:46.025] Browser ERROR   {}
+[00:20:46.857] Browser ERROR   {}
+[00:20:48.484] Browser ERROR   {}
+[00:20:51.711] Browser ERROR   {}
+[00:21:01.640] Browser ERROR   {}
+[00:21:04.936] Server  LOG      ✓ Compiled in 258ms
+[00:21:14.462] Browser ERROR   {}
+[00:21:15.342] Browser ERROR   {}
+[00:21:15.569] Browser ERROR   {}
+[00:21:16.000] Browser ERROR   {}
+[00:21:16.831] Browser ERROR   {}
+[00:21:18.461] Browser ERROR   {}
+[00:21:21.682] Browser ERROR   {}
+[00:21:28.117] Browser ERROR   {}
+[00:21:37.031] Server  LOG      ✓ Compiled in 65ms
+[00:21:44.025] Browser ERROR   {}
+[00:21:45.343] Browser ERROR   {}
+[00:21:45.567] Browser ERROR   {}
+[00:21:46.041] Browser ERROR   {}
+[00:21:46.870] Browser ERROR   {}
+[00:21:48.498] Browser ERROR   {}
+[00:21:51.725] Browser ERROR   {}
+[00:21:58.178] Browser ERROR   {}
+[00:22:06.279] Browser ERROR   {}
+[00:22:06.512] Browser ERROR   {}
+[00:22:06.939] Browser ERROR   {}
+[00:22:07.766] Browser ERROR   {}
+[00:22:09.455] Browser ERROR   {}
+[00:22:12.646] Browser ERROR   {}
+[00:22:20.722] Browser ERROR   {}
+[00:22:29.363] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(0) or use aspect(undefined) to control the
+       height and width.
+[00:22:29.363] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(0) or use aspect(undefined) to control the
+       height and width.
+[00:22:29.363] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(0) or use aspect(undefined) to control the
+       height and width.
+[00:22:29.363] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(0) or use aspect(undefined) to control the
+       height and width.
+[00:22:33.621] Browser ERROR   {}
+[00:22:33.621] Browser ERROR   {"__isAuthError":true,"name":"AuthRetryableFetchError","status":0}
+[00:22:33.621] Browser ERROR   {}
+[00:22:38.096] Browser ERROR   {}
+[00:22:38.508] Browser ERROR   {}
+[00:22:39.341] Browser ERROR   {}
+[00:22:40.973] Browser ERROR   {}
+[00:22:43.588] Browser ERROR   unhandledRejection: AbortError: signal is aborted without reason
+[00:22:43.589] Browser ERROR   unhandledRejection: AbortError: signal is aborted without reason
+[00:22:43.589] Browser ERROR   unhandledRejection: AbortError: signal is aborted without reason
+[00:22:44.201] Browser ERROR   {}
+[00:22:53.154] Browser ERROR   {}
+[00:22:53.154] Browser ERROR   {"__isAuthError":true,"name":"AuthRetryableFetchError","status":0}
+[00:22:53.154] Browser ERROR   {"__isAuthError":true,"name":"AuthRetryableFetchError","status":0}
+[00:22:53.154] Browser ERROR   {}
+[00:22:53.384] Browser ERROR   {}
+[00:22:53.812] Browser ERROR   {}
+[00:22:54.641] Browser ERROR   {}
+[00:22:56.272] Browser ERROR   {}
+[00:22:59.504] Browser ERROR   {}
+[00:23:05.963] Browser ERROR   {}
+[00:23:18.799] Browser ERROR   {}
+[00:23:18.799] Browser ERROR   {"__isAuthError":true,"name":"AuthRetryableFetchError","status":0}
+[00:23:18.799] Browser ERROR   {"__isAuthError":true,"name":"AuthRetryableFetchError","status":0}
+[00:23:33.871] Browser ERROR   {}
+[00:23:34.096] Browser ERROR   {}
+[00:23:34.530] Browser ERROR   {}
+[00:23:35.369] Browser ERROR   {}
+[00:23:36.996] Browser ERROR   {}
+[00:23:40.229] Browser ERROR   {}
+[00:23:46.660] Browser ERROR   {}
+[00:23:59.487] Browser ERROR   {}
+[00:24:04.007] Browser ERROR   {}
+[00:24:04.234] Browser ERROR   {}
+[00:24:04.735] Browser ERROR   {}
+[00:24:05.563] Browser ERROR   {}
+[00:24:07.193] Browser ERROR   {}
+[00:24:10.424] Browser ERROR   {}
+[00:24:16.850] Browser ERROR   {}
+[00:24:29.911] Browser ERROR   {}
+[00:24:33.612] Browser ERROR   {}
+[00:24:33.851] Browser ERROR   {}
+[00:24:34.276] Browser ERROR   {}
+[00:24:35.107] Browser ERROR   {}
+[00:24:36.735] Browser ERROR   {}
+[00:24:39.967] Browser ERROR   {}
+[00:24:46.402] Browser ERROR   {}
+[00:24:46.420] Server  LOG      ✓ Compiled in 23ms
+[00:24:49.660] Server  LOG      ✓ Compiled in 23ms
+[00:24:54.939] Browser ERROR   {}
+[00:24:55.222] Browser ERROR   {}
+[00:24:55.661] Browser ERROR   {}
+[00:24:56.476] Browser ERROR   {}
+[00:24:58.100] Browser ERROR   {}
+[00:25:02.269] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(0) or use aspect(undefined) to control the
+       height and width.
+[00:25:02.269] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(0) or use aspect(undefined) to control the
+       height and width.
+[00:25:02.269] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(0) or use aspect(undefined) to control the
+       height and width.
+[00:25:02.269] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(0) or use aspect(undefined) to control the
+       height and width.
+[00:25:02.718] Browser ERROR   {}
+[00:25:09.148] Browser ERROR   {}
+[00:25:12.788] Server  LOG      ✓ Compiled in 26ms
+[00:25:14.804] Server  LOG      ✓ Compiled in 29ms
+[00:25:16.665] Server  LOG      ✓ Compiled in 22ms
+[00:25:18.791] Server  LOG      ✓ Compiled in 28ms
+[00:25:22.013] Browser ERROR   {}
+[00:25:22.013] Browser ERROR   {"__isAuthError":true,"name":"AuthRetryableFetchError","status":0}
+[00:25:22.013] Browser ERROR   {}
+[00:25:22.239] Browser ERROR   {}
+[00:25:22.669] Browser ERROR   {}
+[00:25:23.496] Browser ERROR   {}
+[00:25:23.991] Server  LOG      ✓ Compiled in 46ms
+[00:25:25.121] Browser ERROR   {}
+[00:25:28.344] Browser ERROR   {}
+[00:25:31.986] Browser ERROR   unhandledRejection: AbortError: signal is aborted without reason
+[00:25:31.986] Browser ERROR   unhandledRejection: AbortError: signal is aborted without reason
+[00:25:31.986] Browser ERROR   unhandledRejection: AbortError: signal is aborted without reason
+[00:25:31.986] Browser ERROR   unhandledRejection: AbortError: signal is aborted without reason
+[00:25:31.986] Browser ERROR   unhandledRejection: AbortError: signal is aborted without reason
+[00:25:36.216] Server  LOG      ✓ Compiled in 27ms
+[00:25:38.150] Browser ERROR   {}
+[00:25:50.979] Browser ERROR   {}
+[00:25:50.979] Browser ERROR   {"__isAuthError":true,"name":"AuthRetryableFetchError","status":0}
+[00:25:50.979] Browser ERROR   {"__isAuthError":true,"name":"AuthRetryableFetchError","status":0}
+[00:25:52.009] Browser ERROR   {}
+[00:25:52.234] Browser ERROR   {}
+[00:25:52.658] Browser ERROR   {}
+[00:25:53.481] Browser ERROR   {}
+[00:25:54.831] Server  LOG      ✓ Compiled in 38ms
+[00:25:55.103] Browser ERROR   {}
+[00:25:58.332] Browser ERROR   {}
+[00:26:04.775] Browser ERROR   {}
+[00:26:18.278] Browser ERROR   {}
+[00:26:22.013] Browser ERROR   {}
+[00:26:22.242] Browser ERROR   {}
+[00:26:22.669] Browser ERROR   {}
+[00:26:23.495] Browser ERROR   {}
+[00:26:23.866] Server  LOG      ✓ Compiled in 23ms
+[00:26:24.993] Server  LOG      ✓ Compiled in 17ms
+[00:26:25.124] Browser ERROR   {}
+[00:26:28.353] Browser ERROR   {}
+[00:26:30.369] Server  LOG      ✓ Compiled in 26ms
+[00:26:34.782] Browser ERROR   {}
+[00:26:47.608] Browser ERROR   {}
+[00:26:58.072] Browser ERROR   {}
+[00:26:58.306] Browser ERROR   {}
+[00:26:58.723] Browser ERROR   {}
+[00:26:59.386] Server  LOG      ✓ Compiled in 26ms
+[00:26:59.548] Browser ERROR   {}
+[00:27:01.226] Browser ERROR   {}
+[00:27:03.837] Browser ERROR   {}
+[00:27:04.057] Browser ERROR   {}
+[00:27:04.484] Browser ERROR   {}
+[00:27:05.310] Browser ERROR   {}
+[00:27:06.940] Browser ERROR   {}
+[00:27:10.168] Browser ERROR   {}
+[00:27:16.943] Browser ERROR   {}
+[00:27:32.211] Browser ERROR   {}
+[00:27:32.211] Browser ERROR   {"__isAuthError":true,"name":"AuthRetryableFetchError","status":0}
+[00:27:32.211] Browser ERROR   {}
+[00:27:32.434] Browser ERROR   {}
+[00:27:32.855] Browser ERROR   {}
+[00:27:33.684] Browser ERROR   {}
+[00:27:35.315] Browser ERROR   {}
+[00:27:36.108] Server  LOG      ✓ Compiled in 52ms
+[00:27:38.539] Browser ERROR   {}
+[00:27:41.692] Browser ERROR   {}
+[00:27:41.838] Browser ERROR   {}
+[00:27:42.306] Browser ERROR   {}
+[00:27:43.094] Browser ERROR   {}
+[00:27:44.718] Browser ERROR   {}
+[00:27:47.996] Browser ERROR   {}
+[00:27:54.384] Browser ERROR   {}
+[00:28:07.455] Browser ERROR   {}
+[00:28:07.455] Browser ERROR   {"__isAuthError":true,"name":"AuthRetryableFetchError","status":0}
+[00:28:07.455] Browser ERROR   {}
+[00:28:07.744] Browser ERROR   {}
+[00:28:08.172] Browser ERROR   {}
+[00:28:08.994] Browser ERROR   {}
+[00:28:10.621] Browser ERROR   {}
+[00:28:13.852] Browser ERROR   {}
+[00:28:17.458] Browser ERROR   unhandledRejection: AbortError: signal is aborted without reason
+[00:28:20.281] Browser ERROR   {}
+[00:28:33.114] Browser ERROR   {}
+[00:28:33.114] Browser ERROR   {"__isAuthError":true,"name":"AuthRetryableFetchError","status":0}
+[00:28:33.114] Browser ERROR   {"__isAuthError":true,"name":"AuthRetryableFetchError","status":0}
+[00:28:39.267] Server  LOG      ✓ Compiled in 31ms
+[00:28:46.593] Browser ERROR   {}
+[00:28:46.820] Browser ERROR   {}
+[00:28:47.248] Browser ERROR   {}
+[00:28:47.449] Server  LOG      ✓ Compiled in 25ms
+[00:28:48.075] Browser ERROR   {}
+[00:28:49.699] Browser ERROR   {}
+[00:28:52.927] Browser ERROR   {}
+[00:28:59.363] Browser ERROR   {}
+[00:29:07.418] Browser ERROR   {}
+[00:29:07.642] Browser ERROR   {}
+[00:29:08.065] Browser ERROR   {}
+[00:29:08.473] Server  LOG      ✓ Compiled in 29ms
+[00:29:08.911] Browser ERROR   {}
+[00:29:10.522] Browser ERROR   {}
+[00:29:14.358] Server  LOG      ✓ Compiled in 29ms
+[00:29:15.592] Server  LOG      ✓ Compiled in 35ms
+[00:29:17.252] Browser ERROR   {}
+[00:29:23.681] Browser ERROR   {}
+[00:29:36.513] Browser ERROR   {}
+[00:29:37.436] Browser ERROR   {}
+[00:29:37.663] Browser ERROR   {}
+[00:29:38.094] Browser ERROR   {}
+[00:29:38.947] Browser ERROR   {}
+[00:29:40.572] Browser ERROR   {}
+[00:29:43.806] Browser ERROR   {}
+[00:29:50.953] Browser ERROR   {}
+[00:30:03.777] Browser ERROR   {}
+[00:30:07.442] Browser ERROR   {}
+[00:30:07.669] Browser ERROR   {}
+[00:30:08.096] Browser ERROR   {}
+[00:30:08.942] Browser ERROR   {}
+[00:30:09.907] Server  LOG      ✓ Compiled in 35ms
+[00:30:10.570] Browser ERROR   {}
+[00:30:13.801] Browser ERROR   {}
+[00:30:20.297] Browser ERROR   {}
+[00:30:22.829] Server  LOG      ✓ Compiled in 46ms
+[00:30:33.288] Browser ERROR   {}
+[00:30:35.958] Server  LOG      ✓ Compiled in 45ms
+[00:30:37.429] Browser ERROR   {}
+[00:30:37.655] Browser ERROR   {}
+[00:30:38.081] Browser ERROR   {}
+[00:30:38.912] Browser ERROR   {}
+[00:30:40.689] Browser ERROR   {}
+[00:30:43.909] Browser ERROR   {}
+[00:30:46.245] Server  LOG      ✓ Compiled in 26ms
+[00:30:50.350] Browser ERROR   {}
+[00:31:02.117] Server  LOG      ✓ Compiled in 28ms
+[00:31:04.225] Server  LOG      ✓ Compiled in 26ms
+[00:31:04.290] Browser ERROR   {}
+[00:31:05.813] Server  LOG      ✓ Compiled in 30ms
+[00:31:07.436] Browser ERROR   {}
+[00:31:07.666] Browser ERROR   {}
+[00:31:08.091] Browser ERROR   {}
+[00:31:08.928] Browser ERROR   {}
+[00:31:10.555] Browser ERROR   {}
+[00:31:13.786] Browser ERROR   {}
+[00:31:17.829] Server  LOG      ✓ Compiled in 27ms
+[00:31:20.218] Browser ERROR   {}
+[00:31:21.094] Server  LOG      ✓ Compiled in 25ms
+[00:31:22.315] Server  LOG      ✓ Compiled in 25ms
+[00:31:29.289] Server  LOG      ✓ Compiled in 24ms
+[00:31:33.058] Browser ERROR   {}
+[00:31:37.636] Browser ERROR   {}
+[00:31:37.861] Browser ERROR   {}
+[00:31:38.283] Browser ERROR   {}
+[00:31:38.926] Server  LOG      ✓ Compiled in 28ms
+[00:31:39.112] Browser ERROR   {}
+[00:31:40.754] Browser ERROR   {}
+[00:31:43.988] Browser ERROR   {}
+[00:31:50.413] Browser ERROR   {}
+[00:31:56.142] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(0) or use aspect(undefined) to control the
+       height and width.
+[00:31:56.142] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(0) or use aspect(undefined) to control the
+       height and width.
+[00:31:56.142] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(0) or use aspect(undefined) to control the
+       height and width.
+[00:31:56.142] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(0) or use aspect(undefined) to control the
+       height and width.
+[00:32:03.282] Browser ERROR   {}
+[00:32:03.282] Browser ERROR   {}
+[00:32:03.509] Browser ERROR   {}
+[00:32:03.989] Browser ERROR   {}
+[00:32:04.861] Browser ERROR   {}
+[00:32:06.467] Browser ERROR   {}
+[00:32:10.227] Browser ERROR   {}
+[00:32:12.845] Server  LOG      ✓ Compiled in 28ms
+[00:32:16.648] Browser ERROR   {}
+[00:32:20.970] Browser ERROR   {}
+[00:32:21.285] Browser ERROR   {}
+[00:32:21.743] Browser ERROR   {}
+[00:32:22.570] Browser ERROR   {}
+[00:32:24.195] Browser ERROR   {}
+[00:32:27.445] Browser ERROR   {}
+[00:32:33.005] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:32:33.184] Browser ERROR   {}
+[00:32:33.461] Browser ERROR   {}
+[00:32:33.854] Browser ERROR   {}
+[00:32:34.688] Browser ERROR   {}
+[00:32:36.320] Browser ERROR   {}
+[00:32:39.559] Browser ERROR   {}
+[00:32:41.002] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(0) or use aspect(undefined) to control the
+       height and width.
+[00:32:41.002] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(0) or use aspect(undefined) to control the
+       height and width.
+[00:32:41.002] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(0) or use aspect(undefined) to control the
+       height and width.
+[00:32:41.002] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(0) or use aspect(undefined) to control the
+       height and width.
+[00:32:47.402] Browser ERROR   {}
+[00:33:00.303] Browser ERROR   {}
+[00:33:00.303] Browser ERROR   {"__isAuthError":true,"name":"AuthRetryableFetchError","status":0}
+[00:33:00.304] Browser ERROR   {}
+[00:33:00.553] Browser ERROR   {}
+[00:33:00.978] Browser ERROR   {}
+[00:33:01.917] Browser ERROR   {}
+[00:33:03.554] Browser ERROR   {}
+[00:33:06.792] Browser ERROR   {}
+[00:33:10.259] Browser ERROR   unhandledRejection: AbortError: signal is aborted without reason
+[00:33:10.259] Browser ERROR   unhandledRejection: AbortError: signal is aborted without reason
+[00:33:10.259] Browser ERROR   unhandledRejection: AbortError: signal is aborted without reason
+[00:33:10.259] Browser ERROR   unhandledRejection: AbortError: signal is aborted without reason
+[00:33:10.259] Browser ERROR   unhandledRejection: AbortError: signal is aborted without reason
+[00:33:12.839] Server  LOG      ✓ Compiled in 29ms
+[00:33:13.253] Browser ERROR   {}
+[00:33:13.987] Server  LOG      ✓ Compiled in 23ms
+[00:33:14.091] Browser ERROR   ./components/dashboard/ExpenseTable.tsx:127:1
+Parsing ecmascript source code failed
+  125 |     </div>
+  126 |   );
+> 127 | }
+      | ^
+  128 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./components/dashboard/ExpenseTable.tsx [Client Component Browser]
+    ./app/expenses/page.tsx [Client Component Browser]
+    ./app/expenses/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/dashboard/ExpenseTable.tsx [Client Component SSR]
+    ./app/expenses/page.tsx [Client Component SSR]
+    ./app/expenses/page.tsx [Server Component]
+[00:33:26.246] Browser ERROR   {}
+[00:33:26.246] Browser ERROR   {"__isAuthError":true,"name":"AuthRetryableFetchError","status":0}
+[00:33:26.246] Browser ERROR   {"__isAuthError":true,"name":"AuthRetryableFetchError","status":0}
+[00:33:30.304] Browser ERROR   {}
+[00:33:30.563] Browser ERROR   {}
+[00:33:31.027] Browser ERROR   {}
+[00:33:31.820] Browser ERROR   {}
+[00:33:33.445] Browser ERROR   {}
+[00:33:36.674] Browser ERROR   {}
+[00:33:43.107] Browser ERROR   {}
+[00:33:44.530] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(0) or use aspect(undefined) to control the
+       height and width.
+[00:33:44.530] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(0) or use aspect(undefined) to control the
+       height and width.
+[00:33:44.530] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(0) or use aspect(undefined) to control the
+       height and width.
+[00:33:44.530] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(0) or use aspect(undefined) to control the
+       height and width.

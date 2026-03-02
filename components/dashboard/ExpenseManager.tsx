@@ -44,12 +44,12 @@ export function ExpenseManager({
   return (
     <div
       className={cn(
-        "grid gap-6",
-        hideList ? "" : "md:grid-cols-2 lg:h-[500px]"
+        "grid gap-6 px-2",
+        hideList ? "" : "md:grid-cols-2 lg:h-[500px] "
       )}
     >
       {/* Add Expense Form */}
-      <Card className="h-fit">
+      <Card className="h-fit w-full">
         <CardHeader>
           <CardTitle>Add Expense</CardTitle>
         </CardHeader>
