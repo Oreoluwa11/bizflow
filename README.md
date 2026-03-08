@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+- What I Built
 
-## Getting Started
+I built a simple personal finance tracking application that allows users to manage their income and expenses in a clear and intuitive interface. The application enables users to add transactions, categorize expenses, track their overall balance, and monitor their budget.
 
-First, run the development server:
+The goal was to create a lightweight tool that helps users quickly understand their financial situation without requiring complex setup or a backend service.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Design and Technology Choices
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+I used Next.js with TypeScript and Tailwind CSS to build the application because they provide a fast development workflow and allow for building scalable, maintainable frontend applications.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+React hooks such as useState, useEffect, and useRef were used for state management and handling user interactions. Data is stored in localStorage so that transactions persist even after the browser refreshes, while keeping the application simple and backend-free.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Challenges Faced
 
-## Learn More
+One challenge was managing editable financial values while maintaining a smooth user experience. This required handling temporary input states so users could edit values without immediately affecting the stored data.
 
-To learn more about Next.js, take a look at the following resources:
+Another challenge was keeping the UI clean while displaying multiple pieces of financial information in a way that remains easy to understand.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+What I Would Improve With More Time
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+With more time, I would add:
 
-## Deploy on Vercel
+More advanced financial visualizations and charts
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Filtering and searching through transactions
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Authentication so multiple users can securely manage their finances
+
+Cloud database integration to sync data across devices
+
+Time Spent
+
+Approximately 35–40 hours across several sessions were spent designing, refining, and polishing the application.
+
+
+- Live url: https://bizflow-gray.vercel.app/
