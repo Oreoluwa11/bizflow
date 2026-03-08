@@ -9,17 +9,17 @@ import { Button } from "@/components/ui/button";
 import { CircleDollarSign, ArrowRight } from "lucide-react";
 
 import { IncomeChart } from "@/components/dashboard/IncomeChart";
-import { useAuth } from "@/components/auth/AuthProvider";
+import { Pencil } from "lucide-react";
+import { useState } from "react";
 // import { User, LogIn } from "lucide-react";
 
 export default function Home() {
-  const { data, setIncome, stats } = useFinance();
-  const { user } = useAuth();
+  const { data, setIncome, stats, updateBudgetRule } = useFinance();
+  const [isEditingBudget, setIsEditingBudget] = useState(false);
 
   return (
     <main className="min-h-screen bg-black text-zinc-100 p-4 md:p-8">
       <div className="max-w-7xl mx-auto space-y-8">
-        {/* Header */}
         <header className="flex items-center justify-between pb-6 border-b border-zinc-900">
           <div className="flex items-center gap-2">
             <div className="bg-indigo-600 p-2 rounded-lg">
@@ -29,6 +29,7 @@ export default function Home() {
               BizFlow Finance
             </h1>
           </div>
+
           <div className="flex items-center gap-4">
             {/* Profile / Login Button */}
             {/* <Link href={user ? "/profile" : "/login"}>
@@ -45,32 +46,49 @@ export default function Home() {
               </Button>
             </Link> */}
 
+            <Button
+              variant="outline"
+              className="text-zinc-400 border-zinc-500/30 hover:bg-zinc-800 hover:text-white h-9 md:h-10"
+              onClick={() => setIsEditingBudget(true)}
+            >
+              <Pencil className="h-3 md:h-4 w-4" />
+              <span className="text-xs md:text-base sm:inline ml-2">
+                Edit Categories
+              </span>
+            </Button>
+
             <Link href="/expenses">
               <Button
                 variant="outline"
                 className="text-indigo-400 border-indigo-500/30 hover:bg-zinc-800"
               >
                 <ArrowRight className="h-3 md:h-4 w-4" />{" "}
-                <span className="text-xs md:text-base sm:inline ml-2">Add Expenses</span>
+                <span className="text-xs md:text-base sm:inline ml-2">
+                  Add Expenses
+                </span>
               </Button>
             </Link>
           </div>
         </header>
 
-        {/* Top Stats Row */}
         <div className="grid gap-6 lg:grid-cols-[1fr_2fr]">
           <IncomeSection
             income={data.monthlyIncome}
             onIncomeChange={setIncome}
           />
-          <BudgetSummary stats={stats} rules={data.budgetRule} />
+          <BudgetSummary
+            stats={stats}
+            rules={data.budgetRule}
+            onUpdateRules={updateBudgetRule}
+            isEditing={isEditingBudget}
+            onEditChange={setIsEditingBudget}
+          />
         </div>
 
-        {/* Charts Section */}
         <div className="space-y-4">
           <h2 className="text-xl font-bold text-white">Financial Overview</h2>
           <div className="grid gap-6 md:grid-cols-2">
-            <ChartsView expenses={data.expenses} />
+            <ChartsView expenses={data.expenses} rules={data.budgetRule} />
             <IncomeChart
               expenses={data.expenses}
               monthlyIncome={data.monthlyIncome}

@@ -5,10 +5,11 @@ import { ExpenseTable } from "@/components/dashboard/ExpenseTable";
 import { ExpenseManager } from "@/components/dashboard/ExpenseManager";
 import { IncomeSection } from "@/components/dashboard/IncomeSection";
 import { BudgetSummary } from "@/components/dashboard/BudgetSummary";
-import { GoalTracker } from "@/components/dashboard/GoalTracker";
+// import { GoalTracker } from "@/components/dashboard/GoalTracker";
 import { Button } from "@/components/ui/button";
-import { ArrowLeft, Wallet } from "lucide-react";
-import { useAuth } from "@/components/auth/AuthProvider";
+import { ArrowLeft, Wallet, Pencil } from "lucide-react";
+import { useState } from "react";
+
 import { User, LogIn } from "lucide-react";
 import Link from "next/link";
 
@@ -21,8 +22,9 @@ export default function ExpensesPage() {
     setIncome,
     stats,
     addGoal,
+    updateBudgetRule,
   } = useFinance();
-  const { user } = useAuth();
+  const [isEditingBudget, setIsEditingBudget] = useState(false);
 
   return (
     <main className="min-h-screen bg-black text-zinc-100 px-4 py-10 md:p-8">
@@ -59,6 +61,16 @@ export default function ExpensesPage() {
               {user ? "Profile" : "Login"}
             </Button>
           </Link> */}
+          <div className="flex items-center gap-4">
+            <Button
+              variant="outline"
+              className="text-zinc-400 border-zinc-500/30 hover:bg-zinc-800 hover:text-white h-9 md:h-10"
+              onClick={() => setIsEditingBudget(true)}
+            >
+              <Pencil className="h-3 md:h-4 w-4" />
+              <span className="hidden md:inline ml-2">Edit Categories</span>
+            </Button>
+          </div>
         </header>
 
         {/* Dashboard Stats */}
@@ -67,7 +79,13 @@ export default function ExpensesPage() {
             income={data.monthlyIncome}
             onIncomeChange={setIncome}
           />
-          <BudgetSummary stats={stats} rules={data.budgetRule} />
+          <BudgetSummary
+            stats={stats}
+            rules={data.budgetRule}
+            onUpdateRules={updateBudgetRule}
+            isEditing={isEditingBudget}
+            onEditChange={setIsEditingBudget}
+          />
         </div>
 
         <div className="grid gap-8 lg:grid-cols-[350px_1fr]">
@@ -83,6 +101,7 @@ export default function ExpensesPage() {
                   onAdd={addExpense}
                   onRemove={() => {}}
                   hideList={true}
+                  rules={data.budgetRule}
                 />
               </div>
 
@@ -104,6 +123,7 @@ export default function ExpensesPage() {
               expenses={data.expenses}
               onToggleStatus={toggleExpenseStatus}
               onRemove={removeExpense}
+              rules={data.budgetRule}
             />
           </div>
         </div>

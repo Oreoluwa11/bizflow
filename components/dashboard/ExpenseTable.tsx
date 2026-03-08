@@ -17,12 +17,14 @@ interface ExpenseTableProps {
   expenses: Expense[];
   onToggleStatus: (id: string) => void;
   onRemove: (id: string) => void;
+  rules: { id: string; label: string; percentage: number }[];
 }
 
 export function ExpenseTable({
   expenses,
   onToggleStatus,
   onRemove,
+  rules,
 }: ExpenseTableProps) {
   return (
     <div className="rounded-md border border-zinc-800 bg-zinc-900/50">
@@ -51,7 +53,7 @@ export function ExpenseTable({
               .slice()
               .sort(
                 (a, b) =>
-                  new Date(b.date).getTime() - new Date(a.date).getTime()
+                  new Date(b.date).getTime() - new Date(a.date).getTime(),
               )
               .map((expense) => (
                 <TableRow
@@ -67,7 +69,7 @@ export function ExpenseTable({
                         "h-8 gap-2 border",
                         expense.isPaid
                           ? "border-emerald-500/30 bg-emerald-500/10 text-emerald-500 hover:bg-emerald-500/20 hover:text-emerald-400"
-                          : "border-zinc-700 bg-zinc-800/50 text-zinc-400 hover:bg-zinc-800 hover:text-zinc-300"
+                          : "border-zinc-700 bg-zinc-800/50 text-zinc-400 hover:bg-zinc-800 hover:text-zinc-300",
                       )}
                     >
                       {expense.isPaid ? (
@@ -91,16 +93,11 @@ export function ExpenseTable({
                   <TableCell>
                     <Badge
                       className={cn(
-                        "capitalize border-0",
-                        expense.category === "needs" &&
-                          "bg-emerald-500/10 text-emerald-500 hover:bg-emerald-500/20",
-                        expense.category === "wants" &&
-                          "bg-indigo-500/10 text-indigo-500 hover:bg-indigo-500/20",
-                        expense.category === "savings" &&
-                          "bg-rose-500/10 text-rose-500 hover:bg-rose-500/20"
+                        "capitalize border-0 bg-zinc-800 text-zinc-300 pointer-events-none",
                       )}
                     >
-                      {expense.category}
+                      {rules.find((r) => r.id === expense.category)?.label ||
+                        expense.category}
                     </Badge>
                   </TableCell>
                   <TableCell className="text-right font-medium text-zinc-100">

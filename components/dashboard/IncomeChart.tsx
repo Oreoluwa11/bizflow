@@ -30,21 +30,21 @@ interface IncomeChartProps {
 export function IncomeChart({ expenses, monthlyIncome }: IncomeChartProps) {
   const data = useMemo(() => {
     // Generate last 6 months
-    const months = Array.from({ length: 6 }, (_, i) => {
-      const date = subMonths(new Date(), 5 - i); // 5 months ago to now
+    const months = Array.from({ length: 4 }, (_, i) => {
+      const date = subMonths(new Date(), 3 - i);
       return {
         name: format(date, "MMM"),
         fullName: format(date, "MMMM yyyy"),
         start: startOfMonth(date),
         end: endOfMonth(date),
-        income: monthlyIncome, // Assuming constant income for MVP
+        income: monthlyIncome, // Constant income for MVP
         spent: 0,
       };
     });
 
     // Populate spending
     expenses.forEach((exp) => {
-      if (!exp.isPaid) return; // Only count paid expenses? Or all? Let's assume Paid for "Actuals"
+      if (!exp.isPaid) return; 
       const expDate = new Date(exp.date);
       const month = months.find((m) =>
         isWithinInterval(expDate, { start: m.start, end: m.end })

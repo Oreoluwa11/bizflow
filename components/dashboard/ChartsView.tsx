@@ -15,9 +15,10 @@ import { FinanceData } from "@/types/finance";
 
 interface ChartsViewProps {
   expenses: FinanceData["expenses"];
+  rules: FinanceData["budgetRule"];
 }
 
-export function ChartsView({ expenses }: ChartsViewProps) {
+export function ChartsView({ expenses, rules }: ChartsViewProps) {
   const data = useMemo(() => {
     const counts = expenses.reduce(
       (acc, curr) => {
@@ -27,12 +28,24 @@ export function ChartsView({ expenses }: ChartsViewProps) {
       {} as Record<string, number>,
     );
 
-    return [
-      { name: "Needs", value: counts.needs || 0, color: "#10b981" }, // Emerald-500
-      { name: "Wants", value: counts.wants || 0, color: "#6366f1" }, // Indigo-500
-      { name: "Savings", value: counts.savings || 0, color: "#f43f5e" }, // Rose-500
-    ].filter((i) => i.value > 0);
-  }, [expenses]);
+    const PALETTE = [
+      "#10b981",
+      "#6366f1",
+      "#f43f5e",
+      "#f59e0b",
+      "#06b6d4",
+      "#d946ef",
+      "#84cc16",
+    ];
+
+    return rules
+      .map((rule, idx) => ({
+        name: rule.label,
+        value: counts[rule.id] || 0,
+        color: PALETTE[idx % PALETTE.length],
+      }))
+      .filter((i) => i.value > 0);
+  }, [expenses, rules]);
 
   if (expenses.length === 0) return null;
 

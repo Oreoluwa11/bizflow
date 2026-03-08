@@ -40,28 +40,10 @@
       "namedRegex": "^/_not\\-found(?:/)?$"
     },
     {
-      "page": "/auth/callback",
-      "regex": "^/auth/callback(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/auth/callback(?:/)?$"
-    },
-    {
       "page": "/expenses",
       "regex": "^/expenses(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/expenses(?:/)?$"
-    },
-    {
-      "page": "/login",
-      "regex": "^/login(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/login(?:/)?$"
-    },
-    {
-      "page": "/profile",
-      "regex": "^/profile(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/profile(?:/)?$"
     }
   ],
   "dataRoutes": [],

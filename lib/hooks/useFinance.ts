@@ -1,128 +1,84 @@
 import { useState, useMemo, useEffect } from 'react';
 import { FinanceData, Expense, Goal, CategoryType } from '@/types/finance';
-import { createClient } from '@/lib/supabase/client';
-import { dbRequest } from '@/lib/finance-db';
 
 const DEFAULT_DATA: FinanceData = {
   monthlyIncome: 0,
   expenses: [],
   goals: [],
-  budgetRule: {
-    needs: 50,
-    wants: 30,
-    savings: 20,
-  },
+  budgetRule: [
+    { id: 'needs', label: 'Needs', percentage: 50 },
+    { id: 'wants', label: 'Wants', percentage: 30 },
+    { id: 'savings', label: 'Savings', percentage: 10 },
+    { id: 'investments', label: 'Investments', percentage: 10 },
+  ],
 };
 
 
 export function useFinance() {
   const [data, setData] = useState<FinanceData>(DEFAULT_DATA);
   const [isLoaded, setIsLoaded] = useState(false);
-  const [user, setUser] = useState<any>(null);
-  const supabase = createClient();
 
-  // Check auth status
-  useEffect(() => {
-    const { data: { subscription } } = supabase.auth.onAuthStateChange((_event, session) => {
-        setUser(session?.user ?? null);
-    });
-    return () => subscription.unsubscribe();
-  }, [supabase.auth]);
-
-  // Load data (Local Storage OR Supabase)
+  // Load data (Local Storage)
   useEffect(() => {
     async function loadData() {
-      if (user) {
-        // Load from Supabase
+      const saved = localStorage.getItem('bizflow-data');
+      if (saved) {
         try {
-          const [expenses, goals, income] = await Promise.all([
-            dbRequest.getExpenses(),
-            dbRequest.getGoals(),
-            dbRequest.getIncome()
-          ]);
-          
-          setData(prev => ({
-            ...prev,
-            expenses,
-            goals,
-            monthlyIncome: income
-          }));
-        } catch (e) {
-          console.error("Failed to sync with Supabase", e);
-        }
-      } else {
-        // Load from Local Storage (Guest)
-        const saved = localStorage.getItem('bizflow-data');
-        if (saved) {
-          try {
-            const parsed = JSON.parse(saved);
-            // Migration
-             if (parsed.expenses) {
-                 parsed.expenses = parsed.expenses.map((e: any) => ({
-                     ...e,
-                     isPaid: e.isPaid ?? true, 
-                     date: e.date ?? new Date().toISOString(),
-                 }));
-            }
-            setData(parsed);
-          } catch (e) {
-            console.error('Failed to load local data', e);
+          const parsed = JSON.parse(saved);
+           if (parsed.expenses) {
+               parsed.expenses = parsed.expenses.map((e: Partial<Expense>) => ({
+                   ...e,
+                   isPaid: e.isPaid ?? true, 
+                   date: e.date ?? new Date().toISOString(),
+               }));
           }
+          if (parsed.budgetRule && !Array.isArray(parsed.budgetRule)) {
+               parsed.budgetRule = [
+                   { id: 'needs', label: 'Needs', percentage: parsed.budgetRule.needs || 50 },
+                   { id: 'wants', label: 'Wants', percentage: parsed.budgetRule.wants || 30 },
+                   { id: 'savings', label: 'Savings', percentage: parsed.budgetRule.savings || 20 },
+               ];
+          }
+          setData(parsed);
+        } catch (e) {
+          console.error('Failed to load local data', e);
         }
       }
       setIsLoaded(true);
     }
     
     loadData();
-  }, [user]);
+  }, []);
 
-  // Save to local storage for guests ONLY
+  // Save to local storage
   useEffect(() => {
-    if (isLoaded && !user) {
+    if (isLoaded) {
       localStorage.setItem('bizflow-data', JSON.stringify(data));
     }
-  }, [data, isLoaded, user]);
+  }, [data, isLoaded]);
 
   const setIncome = async (amount: number) => {
     setData((prev) => ({ ...prev, monthlyIncome: amount }));
-    if (user) await dbRequest.setIncome(amount);
   };
 
   const addExpense = async (expense: Omit<Expense, 'id'>) => {
-    if (user) {
-       try {
-           const newExpense = await dbRequest.addExpense(expense);
-           setData((prev) => ({ ...prev, expenses: [newExpense, ...prev.expenses] })); // Add to top
-       } catch (e) {
-           console.error(e);
-       }
-    } else {
-        const newExpense = { 
-        ...expense, 
-        id: crypto.randomUUID(),
-        isPaid: expense.isPaid ?? false,
-        date: expense.date ?? new Date().toISOString()
-        };
-        setData((prev) => ({ ...prev, expenses: [...prev.expenses, newExpense] }));
-    }
+    const newExpense = { 
+    ...expense, 
+    id: crypto.randomUUID(),
+    isPaid: expense.isPaid ?? false,
+    date: expense.date ?? new Date().toISOString()
+    };
+    setData((prev) => ({ ...prev, expenses: [...prev.expenses, newExpense] }));
   };
 
   const removeExpense = async (id: string) => {
-    if (user) {
-        await dbRequest.deleteExpense(id);
-    }
     setData((prev) => ({
       ...prev,
       expenses: prev.expenses.filter((e) => e.id !== id),
     }));
   };
 
-    const toggleExpenseStatus = async (id: string) => {
-    const expense = data.expenses.find(e => e.id === id);
-    if (expense && user) {
-        await dbRequest.updateExpenseStatus(id, !expense.isPaid);
-    }
-
+  const toggleExpenseStatus = async (id: string) => {
     setData((prev) => ({
       ...prev,
       expenses: prev.expenses.map((e) => 
@@ -131,18 +87,13 @@ export function useFinance() {
     }));
   };
 
-  const updateBudgetRule = (rule: FinanceData['budgetRule']) => {
+  const updateBudgetRule = async (rule: FinanceData['budgetRule']) => {
     setData((prev) => ({ ...prev, budgetRule: rule }));
   };
 
   const addGoal = async (goal: Omit<Goal, 'id'>) => {
-    if (user) {
-        const newGoal = await dbRequest.addGoal(goal);
-        setData((prev) => ({ ...prev, goals: [...prev.goals, newGoal] }));
-    } else {
-        const newGoal = { ...goal, id: crypto.randomUUID() };
-        setData((prev) => ({ ...prev, goals: [...prev.goals, newGoal] }));
-    }
+    const newGoal = { ...goal, id: crypto.randomUUID() };
+    setData((prev) => ({ ...prev, goals: [...prev.goals, newGoal] }));
   };
 
   // Calculations
@@ -157,11 +108,10 @@ export function useFinance() {
       return acc;
     }, {} as Record<CategoryType, number>);
 
-    const recommended = {
-      needs: (data.monthlyIncome * data.budgetRule.needs) / 100,
-      wants: (data.monthlyIncome * data.budgetRule.wants) / 100,
-      savings: (data.monthlyIncome * data.budgetRule.savings) / 100,
-    };
+    const recommended = data.budgetRule.reduce((acc, rule) => {
+      acc[rule.id] = (data.monthlyIncome * rule.percentage) / 100;
+      return acc;
+    }, {} as Record<string, number>);
 
     return {
       totalExpenses,

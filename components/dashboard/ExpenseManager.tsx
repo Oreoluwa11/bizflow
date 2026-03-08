@@ -12,6 +12,7 @@ interface ExpenseManagerProps {
   onAdd: (expense: Omit<Expense, "id">) => void;
   onRemove: (id: string) => void;
   hideList?: boolean;
+  rules: { id: string; label: string; percentage: number }[];
 }
 
 export function ExpenseManager({
@@ -19,10 +20,13 @@ export function ExpenseManager({
   onAdd,
   onRemove,
   hideList = false,
+  rules,
 }: ExpenseManagerProps) {
   const [name, setName] = useState("");
   const [amount, setAmount] = useState("");
-  const [category, setCategory] = useState<CategoryType>("needs");
+  const [category, setCategory] = useState<CategoryType>(
+    rules?.[0]?.id || "needs",
+  );
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -45,7 +49,7 @@ export function ExpenseManager({
     <div
       className={cn(
         "grid gap-6 px-2",
-        hideList ? "" : "md:grid-cols-2 lg:h-[500px] "
+        hideList ? "" : "md:grid-cols-2 lg:h-[500px] ",
       )}
     >
       {/* Add Expense Form */}
@@ -79,9 +83,11 @@ export function ExpenseManager({
                 value={category}
                 onChange={(e) => setCategory(e.target.value as CategoryType)}
               >
-                <option value="needs">Needs (Essential)</option>
-                <option value="wants">Wants (Lifestyle)</option>
-                <option value="savings">Savings (Future)</option>
+                {rules.map((rule) => (
+                  <option key={rule.id} value={rule.id}>
+                    {rule.label}
+                  </option>
+                ))}
               </select>
             </div>
             <Button type="submit" className="w-full mt-2">
@@ -118,13 +124,7 @@ export function ExpenseManager({
                       <div className="flex items-center gap-3">
                         <div
                           className={cn(
-                            "p-2 rounded-full bg-opacity-10",
-                            expense.category === "needs" &&
-                              "bg-emerald-500/10 text-emerald-500",
-                            expense.category === "wants" &&
-                              "bg-indigo-500/10 text-indigo-500",
-                            expense.category === "savings" &&
-                              "bg-rose-500/10 text-rose-500"
+                            "p-2 rounded-full bg-opacity-10 bg-indigo-500/10 text-indigo-500", // Fallback style
                           )}
                         >
                           <Tag className="h-4 w-4" />

@@ -116,7 +116,7 @@ export function IncomeSection({ income, onIncomeChange }: IncomeSectionProps) {
                 Press Enter to save
               </span>
             ) : (
-              "Total monthly budget source"
+              "Total monthly budget"
             )}
           </p>
         </div>
